@@ -1,0 +1,169 @@
+<html  xmlns:th="http://www.thymeleaf.org" th:replace="~{user/base::layout(~{::section})}">
+	<head>
+	
+	</head>
+	
+	<body>
+		
+
+    
+<section>
+
+	<div class="slider">
+    <div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 1333px;
+        height: 550px; ">
+
+        <!-- Slides Container -->
+        <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1333px; height: 550px;
+            overflow: hidden;">
+            <div><img u="image" th:src="@{/slider/slider1.jpg}" src="../../static/slider/slider1.jpg" /></div>
+            <div><img u="image" th:src="@{/slider/slider2.jpg}" src="../../static/slider/slider2.jpg" /></div>
+            <div><img u="image" th:src="@{/slider/slider3.png}" src="../../static/slider/slider3.png" /></div>
+            <div><img u="image" th:src="@{/slider/slider4.jpg}" src="../../static/slider/slider4.jpg" /></div>
+            <div><img u="image" th:src="@{/slider/slider5.jpg}" src="../../static/slider/slider5.jpg" /></div>
+            <div><img u="image" th:src="@{/slider/slider6.jpg}" src="../../static/slider/slider6.jpg" /></div>
+            
+        </div>
+        
+        <style>
+            /* jssor slider arrow navigator skin 03 css */
+            .jssora03l, .jssora03r {
+                display: block;
+                position: absolute;
+                /* size of arrow element */
+                width: 55px;
+                height: 55px;
+                cursor: pointer;
+                background: url(slider/a03.png) no-repeat;
+                overflow: hidden;
+            }
+            .jssora03l { background-position: -3px -33px; }
+            .jssora03r { background-position: -63px -33px; }
+            .jssora03l:hover { background-position: -123px -33px; }
+            .jssora03r:hover { background-position: -183px -33px; }
+            .jssora03l.jssora03ldn { background-position: -243px -33px; }
+            .jssora03r.jssora03rdn { background-position: -303px -33px; }
+        </style>
+        <!-- Arrow Left -->
+        <span u="arrowleft" class="jssora03l" style="top: 200px; left: 8px;">
+        </span>
+        <!-- Arrow Right -->
+        <span u="arrowright" class="jssora03r" style="top: 200px; right: 8px;">
+        </span>
+        <!--#endregion Arrow Navigator Skin End -->
+        <!--<a style="display: none" href="http://www.jssor.com">Image Slider</a>-->
+
+        <form>
+            <select class="citycls">
+                <option>Jodhpur</option>
+            </select>
+
+            <div class="insideslider">
+                 <select class="ptypelistcls">
+                    <option>Jodhpur</option>
+                </select>
+
+                 <select class="rtypelistcls">
+                    <option>Select Requirement Type</option>
+                </select>
+
+                <input type="button" class="searchbtncls" value="Search"> 
+                <br />
+
+
+            </div>
+        </form>
+
+        
+      
+    </div>
+ </div>
+
+ <!--slider end-->
+
+
+    <div class="containbox">
+             <div class="box-head">Property For Sale</div>
+             
+       
+        
+                  
+         <div class="box">
+           <div class="imgblock">
+              
+                 <a href="#"><img src="images/p1.jpg" alt="No Image"/></a>
+                 <h5 class="time">Posted On 13 Apr 2024</h5>
+                 
+                 <a id="heart" style="color:#fff;" ><i class="fa fa-heart"></i></a>
+           </div>
+              
+               <div class="scroll">
+                   <div class="pstype">Residential Flat</div>    
+                                  
+                   <div class="address" id="add">Vaishali Nagar, Jodhpur, Rajasthan</div>
+                  
+                  <div class="pccontain"> 
+                   <div class="price"><span id="pr">11999</span> <span style="font-size:18px;color:#f30;"  id="rs">Rs</span></div>
+                   <button id="contactbtn1" class="contactbtncls" >Contact</button> 
+                  </div>
+             </div>
+            
+            </div>
+         <a href="viewmore.html?req=Sale"><button ID="viewmorebtn1" class="viewmorebtncls">View More</button></a>
+        
+        
+      </div>
+      
+
+    <div class="containbox">
+             <div class="box-head">Property For Rent</div>
+             
+       
+        
+                  
+         <div class="box">
+           <div class="imgblock">
+              
+                 <a href="#"><img src="images/p1.jpg" alt="No Image"/></a>
+                 <h5 class="time">Posted On 13 Apr 2024</h5>
+                 
+                 <a id="heart" style="color:#fff;" ><i class="fa fa-heart"></i></a>
+           </div>
+              
+               <div class="scroll">
+                   <div class="pstype">Residential Flat</div>    
+                                  
+                   <div class="address" id="add">Vaishali Nagar, Jodhpur, Rajasthan</div>
+                  
+                  <div class="pccontain"> 
+                   <div class="price"><span id="pr">11999</span> <span style="font-size:18px;color:#f30;"  id="rs">Rs</span></div>
+                   <button id="contactbtn1" class="contactbtncls" >Contact</button> 
+                  </div>
+             </div>
+            
+            </div>
+         <a href="viewmore.html?req=Rent"><button ID="viewmorebtn1" class="viewmorebtncls">View More</button></a>
+        
+        
+      </div>
+
+
+
+      <div class="containbox">
+       
+          <div class="box-head">Agents in Delhi Who can Help You</div>
+          
+             <div class="box1">
+              <a href="#"> 
+               <img src="images/t7.jpg" alt="No Image"/>
+               <div class="agentname">Div</div>
+              </a>
+             </div>      
+                 
+         <a href="agentviewmore.html"><button ID="viewmorebtn3"  class="viewmorebtncls" >View More</button></a>          
+      </div>
+  
+	
+</section>
+	</body>
+</html>

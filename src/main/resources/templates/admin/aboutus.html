@@ -1,0 +1,46 @@
+<html  xmlns:th="http://www.thymeleaf.org" th:replace="~{admin/base::layout(~{::.mright})}">
+	
+	<head>
+	</head>
+
+	<body>
+	            
+            <div class="mright">
+     
+
+
+
+            <form th:action="@{/admin/aboutus/add}" method="post"  th:object="${about}">
+            	<div class="mrighthead">About us</div>
+
+				<input type="hidden" id="aid" th:field="*{aid}">
+	            <div class="curow">
+	              <div class="culabel" >Heading :-</div>
+	              <div class="cuinfo">
+	              	<input type="text" id="heading" class="input"  th:field="*{heading}"><!-- name="heading" />-->
+	              </div>
+	            </div>
+	          
+	            <div class="curow" style="height:110px;">
+	              <div class="culabel">Text :-</div>
+	              <div class="cuinfo">
+	              	<textarea id="paragraph" class="input" style="height:100px;resize:none;"   th:field="*{para}">
+
+	              	</textarea>
+	              </div>
+	            </div>
+	           
+	           <div class="curow">
+	               <button id="Update" class="sub">Update</button>
+	           </div>
+	    
+
+	       </form>
+
+
+
+
+            </div><!--mright-->
+     
+	</body>
+</html>

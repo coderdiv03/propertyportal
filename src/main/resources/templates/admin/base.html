@@ -1,0 +1,50 @@
+<html xmlns:th="http://www.thymeleaf.org" th:fragment="layout(content)">
+
+<head>
+	<title>Property Portal</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+   
+       <link th:href="@{/css/style.css}" rel="stylesheet" />
+        
+</head>
+
+<body>
+	<div class="houter">
+       <div class="header">
+         <div class="heading">Admin Panel</div>
+       </div><!--header-->
+        
+         <div class="main">
+           <div class="mleft">
+      	     <a th:href="@{aboutus}"><div class="menus">About us</div></a>
+             <a th:href="@{addpropertytype}"><div class="menus">Add Property type</div></a>
+             <a th:href="@{viewpropertytype}"><div class="menus">View Property type</div></a>
+             <a th:href="@{addcategory}"><div class="menus">Add Category</div></a>
+             <a th:href="@{viewcategory}"><div class="menus">View Category</div></a>
+             <a th:href="@{addcity}"><div class="menus">Add City</div></a>
+             <a th:href="@{viewcity}"><div class="menus">View City</div></a>
+             <a th:href="@{addlocality}"><div class="menus">Add Locality</div></a>
+             <a th:href="@{viewlocality}"><div class="menus">View Locality</div></a>
+             <a th:href="@{viewowner}"><div class="menus">View Owner</div></a>
+             <a th:href="@{viewagent}"><div class="menus">View Agent</div></a>
+             <a th:href="@{viewbuyer}"><div class="menus">View Buyer</div></a>
+             <a th:href="@{viewproperty}"><div class="menus">View Property</div></a>
+             <a th:href="@{viewfeedback}"><div class="menus">View Feedback</div></a>
+             <a th:href="@{viewrequirement}"><div class="menus">View Requirement</div></a>
+             <a th:href="@{contactus}"><div class="menus">Contact us</div></a>
+             <a th:href="@{changepassword}"><div class="menus menu1">Change Password</div></a>
+             <a th:href="@{Logout}" ><div class="menus">Logout</div></a>
+            </div><!--mleft-->
+        
+	
+		<div th:replace="${content}"></div>
+	
+		</div><!-- main -->
+	
+	 <div class="footer"></div><!--footer-->
+	</div><!-- houter -->
+	
+</body>
+</html>

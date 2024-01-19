@@ -1,0 +1,380 @@
+﻿body
+{
+	background-image:linear-gradient(#606c88,#3f4c6b) ;
+	background-repeat:no-repeat;
+}
+
+.outer
+{
+	width:500px;
+	height:500px;
+	background-color: #ccc;
+	margin:0px auto;
+	margin-top:100px;
+	border-radius: 50px;
+}
+
+.block
+{
+	width:500px;
+	height:179px;
+    padding-top:20px;
+    border-bottom:1px dotted #204040;
+    background-image: linear-gradient(white,gray,silver);
+    border-top-left-radius:50px;
+    border-top-right-radius:50px;
+}
+
+.blockiner
+{
+	width:150px;
+	height:150px;
+	margin:0px auto;
+	border-radius:70%;
+	border:7px solid #402020;
+    background-color: #ccc;
+}
+
+.blockiner b
+{
+    font-size:100px;
+    margin:25px 30px 30px 35px;
+    color:#402020;
+}
+
+.userblock,.passblock
+{
+	width:500px;
+	height:50px;
+   border-bottom:2px solid #00f;
+}
+
+
+.remem
+{
+	width:500px;
+	height:30px;
+	margin-top:20px;
+	font-size:20px;
+}
+
+.check
+{
+	float:left;
+	width:40px;
+	height:30px;
+}
+
+.remem input
+{
+	width:30px;
+	height:16px;
+}
+
+.loginBtn
+{
+	width:500px;
+	height:50px;
+    margin-top:20px;
+}
+
+.loginBtn input
+{
+	background-color:#025;
+	font-size: 20px;
+	color:#fff;
+    width:500px;
+    height:40px;
+    margin:5px 0 5px 0;
+    text-transform:uppercase;
+}
+
+.loginBtn input:hover
+{
+	box-shadow: 0px 0px 10px;
+}
+
+.imgblock
+{
+	width:25px;
+	height:20px;
+	float: left;
+    margin:15px 0 0 10px;
+    font-size:20px;
+}
+
+.userblock input,.passblock input
+{
+	width:400px;
+	height:40px;
+	margin-top:5px;
+	margin-left:15px;
+	font-size: 20px;
+	border:none;
+	background-color: #ccc;
+	outline: none;
+}
+
+content
+{
+	font-size:20px;
+	color:#f00;
+	margin:15px;
+}
+
+
+
+.houter
+{
+	width:1200px;
+	background-color:#aad;
+	margin:0px auto;
+}
+
+.header
+{
+    width:1200px;
+    height:100px;
+    background-color: #009;
+    color:#fff;
+}
+
+.heading
+{
+    width:400px;
+	font-size:50px;
+    margin:20px 0 0 40px;
+    float:left;
+}
+
+.main
+{
+	width:1200px;
+	background-color: #009;
+}
+
+.mleft
+{
+	width:210px;
+	background-color: #fff;
+    float:left;
+    box-sizing: border-box;
+    padding-bottom:10px;
+}
+
+.menus
+{
+	width:160px;
+	height:42px;
+	background-color:#009;
+	margin:12px 0 0 20px;
+	font-size:18px;
+	text-align:center;
+	line-height:40px;
+    border-radius:10px;
+    box-sizing: border-box;
+    color:#fff;
+}
+
+.menus:hover
+{
+	transform:scale(1.1);
+	border-bottom:5px solid #f00;
+}
+
+.menu1:hover
+{
+	font-size:18px;
+}
+
+a
+{
+	color:#fff;
+	text-decoration: none;
+}
+
+
+
+.mright
+{
+	width:990px;
+	background-color: #aad;
+    float:left;
+    padding-top:20px;
+    box-sizing: border-box;
+    position:relative;
+}
+
+ .curow
+ {
+	 width:850px;
+	 height:50px;
+	 margin:20px auto;
+ }
+ 
+ .culabel,.cuinfo
+ {
+	 width:250px;
+	 height:50px;
+	 float:left;
+	 padding:10px 0 0 20px;
+	 box-sizing:border-box;
+	 font-size:25px;
+ }
+ 
+ .culabel
+ {
+ 	text-align:center;
+ }
+ 
+ .cuinfo
+ {
+ 	 width:600px;
+	 padding-bottom:5px;
+	 padding-top:5px;
+ }
+ 
+ .input
+ {
+	 width:400px;
+	 height:40px;
+	 font-size:20px;
+ }
+ 
+ .sub
+ {
+	 width:100px;
+	 height:40px;
+	 font-size:20px;
+	 margin:5px 0 0 270px;
+	 background-color:#06F;
+	 color:#fff;
+	 border-radius:10px;
+	 outline:none;
+ }
+ 
+ .sub:hover
+ {
+	 transform:scale(1.1,1.1);
+	 transition:0.5s;
+	 border:2px solid red; 
+ }
+
+
+ .mrighthead
+ {
+ 	width:inherit;
+ 	height:45px;
+ 	text-align:center;
+ 	font-size:30px;
+ 	color:#fff;
+ 	border-bottom: 2px dotted #ccc; 
+ }
+
+.row
+ {
+ 	margin:5px;	
+ }
+
+ .col
+ {
+ 	width:60px;
+ 	height:60px;
+ 	background-color: #ddd;
+    text-align:center;
+    padding-top:7px;
+    box-sizing: border-box;
+    font-size:20px;
+    color:#02f;
+	overflow:auto;
+    border-left:3px solid #ccc;
+	display:inline-block;
+    white-space:normal;
+ }
+
+ .delbtn
+ {
+ 	width:100px;
+ }
+
+ .w608
+ {
+ 	width:608px;
+ }
+ 
+ .w299
+ {
+ 	width:299px;
+ }
+
+ .w200
+ {
+ 	width:200px;
+ }
+ .action
+ {
+ 	width:200px;
+ 	position:absolute;
+ 	left:79%;
+ }
+
+ .btn
+ {
+ 	width:80px;
+ 	height:25px;
+ 	background-color: #aaa;
+ 	float:left;
+ 	margin-left:12px;
+ 	padding-top:2px;
+ 	box-sizing: border-box;
+ 	color:#fff;
+ }
+
+ .delback
+ {
+    background-color:#f00;
+ }
+
+ .editback
+ {
+ 	background-color: #00f;
+ }
+
+
+.footer
+{
+	width:1200px;
+	height:50px;
+	background-color: #000;
+	clear:both;
+}
+
+
+
+.table-box
+{
+	width:78%;
+	overflow:auto;
+	white-space:nowrap;
+	padding-bottom:30px;
+	margin-left:5px;
+	margin-bottom:30px;
+}
+
+.empty
+{
+	font-size:25px;
+	float:left;
+	text-align:center;
+	padding:20px;
+	margin-left:40%;
+	color:#f00;
+}
+
+.input1
+{
+	width:200px;
+	height:30px;
+	font-size:20px;
+	margin-left:20px;
+}
